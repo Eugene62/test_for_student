@@ -2,8 +2,9 @@
 
 int someFunc() 
 {
-	int someValue;
-	return someValue * 2;
+	int someSomeValue = 2;
+	int anotherSomeValue = someSomeValue * 2;
+	return someSomeValue * anotherSomeValue;
 };
 
 int main() {
